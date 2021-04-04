@@ -1,19 +1,23 @@
 <!doctype html> <!- South.html -->
 <html><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<style> table, tr, td{
+<style> table, tr, td, section{
   border: 1px solid white; border-collapse: collapse;}
-  .subject1 { background-color:lightgray; } 
+  section{width:750px; float:left;}
+  .subject1 { background-color:lightblue; } 
 </style><!-- border-collapse: collapse 단선으로, 반대는 separate -->  
 <title>HTML5 클라이언트 사이드 이미지맵 실습</title>
 </head>
 <body>
 <caption><h1> 남문 </h1> </caption>
+<table>  
 <h3>건물소개</h3>
-<table>
-  <tr><td class="subject1">남문입니다.</tr></td>
-  <tr><td class="subject1">남문입니다.</tr></td>
-  <tr><td class="subject1">남문입니다.</tr></td>
+  <section>
+  <img src="https://min011231.github.io/class/images/daejeon.png" border=0 usemap="#area">  
+  </section>
+  <tr><td class="subject1">설계</tr></td>
+  <tr><td class="subject1">시공</tr></td>
+  <tr><td class="subject1">준공</tr></td>
 </table>
 </body>
 <html>  
