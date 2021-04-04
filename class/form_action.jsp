@@ -9,6 +9,6 @@
   클라이언트주소:<%=request.getRemoteAddr()%><br/>
   요청 프로토콜:<%=request.getProtocol()%><br/>
   요청방식:<%=request.getMethod()%><br/>
-  질의내요:<%=request.getQueryString()%><br/>
+  질의내용:<%=request.getQueryString()%><br/>
 </body>
 <html>  
