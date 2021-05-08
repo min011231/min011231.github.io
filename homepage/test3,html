@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>홈페이지 만들기</title>
+  <link rel="stylesheet" href="./css/index5.css"/>
+</head>
+ <body>
+  
+ </body>
+ <header>
+ <h2 class="hidden">header</h2>
+ <h1><a href="#">라인 로고</a></h1>
+  <nav>
+  	<h2 class="hidden">GNB 영역</h2>
+	<ul>
+		<li><a href="#">다운로드</a></li>
+		<li><a href="#">패밀리앱</a></li>
+		<li><a href="#">게임</a></li>
+		<li><a href="#">LINE STORE</a></li>
+	</ul>
+	</nav>
+	<h2 class="hidden">언어</h2>
+	<nav class="korea">
+	    <select>
+			<option>한국어</option>
+			<option>english</option>
+			<option>중국어</option>
+		</nav>
+		</select>
+</header>
+
+<article>
+ <h2 class="hidden">비주얼영역</h2>
+ <div>
+ 	<ul>
+		<li><a href="#">MOBILE</a></li>
+		<li><a href="#">PC/Mac</a></li>
+	</ul>
+ </div>
+ </article>
+
+ <section>
+ <h2 class="hidden">컨텐츠영역</h2>
+ <h1><a href=""></a></h1>
+
+ 
+	<nav>
+		<h3 class="hidden">중간영역</h3>
+ 	<ul>
+		<li><a href="#"></a>폰모양</li>
+		<li><a href="#"></a>컴퓨터</li>
+		<li><a href="#"></a>구글플레이</li>
+		<li><a href="#"></a>앱스토어</li>
+		<li><a href="#"></a>윈도우즈</li>
+	</nav>
+	</ul>
+	</section>
+	<footer>
+	<h2 class="hidden">푸터영역</h2>
+		<div class="footer">
+			<ul>
+				<li><a href="#">도움말</a><li>
+				<li><a href="#">이용약관</a><li>
+				<li><a href="#">개인정보 처리방침</a><li>
+				<li><a href="#">LINE Social Plugins</a><li>
+				<li><a href="#">LINE Creators Market</a><li>
+				<li><a href="#">LINE 로고 사용 가이드</a><li>
+				<li><a href="#">LINE Partners</a><li>
+				<li><a href="#">LINE 블로그</a><li>
+				<li><a href="#">채용정보</a><li>
+			</ul>
+		</div>
+	</footer>
+ </body>
+</html>
+
+</html>
