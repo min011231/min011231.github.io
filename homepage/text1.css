@@ -11,7 +11,7 @@ header nav { height: 21px; float: left; margin-top: 40px; margin-right: 50px; }
 header nav li { height: 30px;  float: left; }
 header nav li { margin-left: 30px; border-right: 2px solid gray; }
 header nav li a { font-size: 19px; }
-header nav.korea { display: block; float: right; }
+
   
 
 
