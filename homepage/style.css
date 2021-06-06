@@ -1,0 +1,225 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.intro_bg{
+    background-image: url("image/dae.png");
+    width:100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin:auto;
+    height: 86px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 80px;
+    width: calc(1280px - 280px);
+    color:white;
+}
+
+.nav > li {
+    margin-left: 84px;
+}
+
+.nav > li > a{
+    color: white;
+}
+
+.intro_text{
+    width: 100%;
+    margin: 50px auto 100px auto;
+    text-align: center;
+
+}
+
+.intro_text > h1 {
+    color:white;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.contents1 {
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+}
+
+.contents2 {
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+}
+
+.contents1_bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about_text1 {
+    background:rgb(14, 111, 150);
+    color:white;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.about_text1 > h1 {
+  
+    color:white;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px ;
+    font-size: 40px;
+}
+
+.about_text1 > .contents1 {
+    text-align: center;
+    color: white;
+}
+
+.about_text1 > .contents2 {
+    text-align: center;
+    color: white;   
+    
+}
+
+.about_text1 > .certi {
+    text-align: center;
+    color: white;   
+}
+
+.about_text1 > .certi > .contents2 {
+    text-align: center;
+    color: white;   
+}
+
+.menu{
+    color:white;
+    width: 100%;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.menu_bg{
+    background-image: url("image/COM.jpg");
+    width:100%;
+    height: 800px;
+    background-attachment: scroll;
+    color:white;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.menu_bg > a > h2 {
+    color:white;
+    align:center;
+}
+
+.card {
+    display: flex;
+    width: 1280px;
+    height: 600px;
+    margin: auto;
+    color: white;
+}
+
+.card > li {
+    flex: 1;
+    margin-top: 30px;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.certi > li > h1 {
+    padding-top: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.certi > li > h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card > li > div {
+    padding-top: 10px;
+    color: white;
+ 
+}
+
+.card > li > div > a {
+    padding-top: 10px;
+    color: rgb(193, 16, 247);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.card > li:not(:last-child){
+    margin-right: 20px;
+}
+
+.certi {
+    display: flex;
+    width: 1280px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.certi > li {
+    flex: 1;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.certi > li > div > .contents2 {
+    text-align: center;
+    color: white;   
+     
+}
+
+* { box-sizing:border-box; padding:0; margin:0; }  
+.row::after { content:""; clear:both; display:table; }
+[class*="col-"]  { float:left;  }
+.header, .footer { color:blue; } 
+.menu ul, .banner ul { list-style-type:none; }
+.menu li {padding: 10px; margin-bottom:10px; }
+.menu li:hover { background-color:rgb(132, 188, 226); } 
+.banner li { border: 2px solid black; padding:10px; margin-bottom: 10px; }
+.banner li img { width:30%; vertical-align:middle; }
+/* for mobile */
+[class*="col-"]  { width:100%;}
+@media only screen and (min-width: 600px) {  /* For tablets: */
+.col-t-1 { width:8.33%; }   .col-t-2 { width:16.66%; }   .col-t-3 { width:25%; }   .col-t-4 { width:33.33%; }  
+.col-t-5 { width:41.66%; }    .col-t-6 { width:50%; }     .col-t-7 { width:58.33%; }    .col-t-8 { width:66.66%; } 
+.col-t-9 { width:75%; }    .col-t-10 { width:83.33%; }    .col-t-11 { width:91.66%; }    .col-t-12 { width:100%; } }
+@media only screen and (min-width: 600px) {  /* For desktop: */
+.col-1 { width:8.33%; }   .col-2 { width:16.66%; }   .col-3 { width:25%; }   .col-4 { width:33.33%; }  
+.col-5 { width:41.66%; }    .col-6 { width:50%; }     .col-7 { width:58.33%; }    .col-8 { width:66.66%; } 
+.col-9 { width:75%; }    .col-10 { width:83.33%; }    .col-11 { width:91.66%; }    .col-12 { width:100%; } }
+
+
+
+
+
